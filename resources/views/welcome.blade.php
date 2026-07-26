@@ -13,6 +13,10 @@
 @vite(['resources/css/style.css'])
 
 
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+
 </head>
 
 
@@ -28,21 +32,26 @@
 
 <div class="brand">
 
-<img src="/images/logo.png">
+<img src="/assets/ecl_logo.png" alt="ECL Logo">
 
 <span>ECLMicroNetworkApply</span>
 
 </div>
 
 
+
 <nav>
 
 <a href="#home">Home</a>
+
 <a href="#about">About</a>
+
 <a href="#services">Services</a>
+
 <a href="#apply">Apply</a>
 
 </nav>
+
 
 
 </div>
@@ -51,7 +60,9 @@
 
 
 
-<!-- HERO -->
+
+
+<!-- HERO SECTION -->
 
 <section class="hero" id="home">
 
@@ -62,9 +73,11 @@
 <h1>
 
 Digital Application Platform
+<br>
 for ECL Micro Network
 
 </h1>
+
 
 
 <p>
@@ -72,9 +85,12 @@ for ECL Micro Network
 A modern online platform designed to simplify customer registration,
 vendor partnership applications, and business service management.
 
+<br><br>
+
 Connect faster. Apply easier. Manage smarter.
 
 </p>
+
 
 
 
@@ -83,23 +99,29 @@ Connect faster. Apply easier. Manage smarter.
 
 <a href="#apply" class="primary-btn">
 
+<i data-lucide="rocket"></i>
+
 Start Application
 
 </a>
 
 
+
 <a href="#about" class="secondary-btn">
+
+<i data-lucide="info"></i>
 
 Learn More
 
 </a>
 
 
-</div>
-
 
 </div>
 
+
+
+</div>
 
 
 </section>
@@ -108,7 +130,11 @@ Learn More
 
 
 
-<!-- ABOUT -->
+
+
+
+<!-- ABOUT SECTION -->
+
 
 <section id="about" class="section">
 
@@ -123,16 +149,20 @@ About ECL Micro Network
 </h2>
 
 
+
 <p>
 
 ECL Micro Network and Data Solutions provides innovative technology
 solutions focused on networking, digital services, and data management.
+
+<br><br>
 
 ECLMicroNetworkApply provides a secure online system where customers
 and business partners can submit applications, manage information,
 and communicate efficiently through a centralized platform.
 
 </p>
+
 
 
 </div>
@@ -144,7 +174,10 @@ and communicate efficiently through a centralized platform.
 
 
 
-<!-- SERVICES -->
+
+
+
+<!-- SERVICES SECTION -->
 
 
 <section id="services" class="section dark">
@@ -164,13 +197,19 @@ Our Services
 <div class="cards">
 
 
+
 <div class="card">
+
+
+<i data-lucide="user-plus" class="service-icon"></i>
+
 
 <h3>
 
 Personal Account
 
 </h3>
+
 
 <p>
 
@@ -179,18 +218,26 @@ manage your profile, and track your applications.
 
 </p>
 
+
+
 </div>
+
 
 
 
 
 <div class="card">
 
+
+<i data-lucide="building-2" class="service-icon"></i>
+
+
 <h3>
 
 Vendor Partnership
 
 </h3>
+
 
 <p>
 
@@ -200,12 +247,19 @@ the ECL Micro Network partner ecosystem.
 </p>
 
 
+
 </div>
 
 
 
 
+
+
 <div class="card">
+
+
+<i data-lucide="shield-check" class="service-icon"></i>
+
 
 <h3>
 
@@ -222,6 +276,7 @@ verification, and communication.
 </p>
 
 
+
 </div>
 
 
@@ -240,7 +295,11 @@ verification, and communication.
 
 
 
-<!-- APPLY -->
+
+
+
+<!-- APPLICATION SECTION -->
+
 
 <section id="apply" class="section">
 
@@ -256,18 +315,26 @@ Choose Your Application
 
 
 
+
 <div class="apply-container">
 
+
+
+
+
+<!-- PERSONAL ACCOUNT -->
 
 
 <div class="apply-card">
 
 
+
 <div class="circle">
 
-👤
+<i data-lucide="user-round"></i>
 
 </div>
+
 
 
 <h3>
@@ -277,35 +344,56 @@ Personal Account
 </h3>
 
 
+
+
 <p>
 
 For individual customers who want to register,
-access services, and manage their information.
+access services, manage their information,
+and track application progress.
 
 </p>
 
 
+
+
 <a href="#" class="primary-btn">
+
+<i data-lucide="arrow-right"></i>
 
 Apply Now
 
 </a>
 
 
+
+
 </div>
 
 
 
+
+
+
+
+
+
+<!-- VENDOR -->
 
 
 <div class="apply-card">
 
 
+
 <div class="circle">
 
-🏢
+
+<i data-lucide="store"></i>
+
 
 </div>
+
+
 
 
 <h3>
@@ -315,34 +403,56 @@ Vendor Application
 </h3>
 
 
+
 <p>
 
 For businesses that want to partner with
-ECL Micro Network and provide services.
+ECL Micro Network and provide products
+or professional services.
 
 </p>
 
 
+
+
 <a href="#" class="primary-btn">
 
+
+<i data-lucide="briefcase-business"></i>
+
+
 Become Vendor
+
 
 </a>
 
 
+
+</div>
+
+
+
+
+
 </div>
 
 
 
 </div>
 
-
-</div>
 
 
 </section>
 
 
+
+
+
+
+
+
+
+<!-- FOOTER -->
 
 
 <footer>
@@ -355,6 +465,7 @@ ECL Micro Network and Data Solutions
 </h3>
 
 
+
 <p>
 
 Connecting Technology. Delivering Solutions.
@@ -362,8 +473,28 @@ Connecting Technology. Delivering Solutions.
 </p>
 
 
+
+<p>
+
+© 2026 ECL Micro Network. All Rights Reserved.
+
+</p>
+
+
+
 </footer>
 
+
+
+
+
+
+
+<script>
+
+lucide.createIcons();
+
+</script>
 
 
 
